@@ -65,7 +65,7 @@ public class Judge extends JFrame {
         for (int i = 0; i < table[x].length; i++) {
             System.out.println(count);
             if (table[x][i].equals(player) && player.equals(caseBefore)) {
-                count++;
+                 count++;
                 if (count == win)
                     break;
             } else {
