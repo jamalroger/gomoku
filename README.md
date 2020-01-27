@@ -26,3 +26,11 @@ Execution
             java Main --name host port
         - exemple
             java Main jamal 127.0.0.0.1 8000
+Screenshots
+    ![alt text](./img/i.png)
+    ![alt text](./img/i1.png)
+    ![alt text](./img/i2.png)
+    ![alt text](./img/i3.png)
+    ![alt text](./img/i4.png)
+
+

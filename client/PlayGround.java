@@ -114,16 +114,17 @@ public class PlayGround extends JFrame {
                         // updating players view
 
                         String msg = server.getMsg();
+                        activeCases();
                         String[] config = msg.split(",");
                         if (msg.startsWith("username")) {
                             caseChar = config[1];
                         } else if (msg.startsWith("win")) {
                             textArea.append(config[1].equals(caseChar) ? "you won" : "you lost try again" + "\n");
-                            stopCases();
+                           
                         } else if (msg.startsWith("draw")) {
 
                             textArea.append(getTitle() + "you lose");
-                            stopCases();
+                          
                         } else {
                             String[] coordinates = msg.split(",");
                             System.out.println(coordinates.length);
@@ -162,6 +163,7 @@ public class PlayGround extends JFrame {
     }
 
     public void stopCases() {
+
         this.isCaseActived = false;
     }
 
