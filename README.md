@@ -1,8 +1,10 @@
 # gomoku
+
 gomoku game online desktop game build with java  
 
-requiements
+Gomoku is an abstract strategy board game and is also called Five in a Row. It is traditionally played on a board with size 19x19. However, because once placed, pieces are not moved or removed from the board, Gomoku may also be played as a paper and pencil game. This game is known in several countries under different names
 
+requiements
     - java 
 		
 
